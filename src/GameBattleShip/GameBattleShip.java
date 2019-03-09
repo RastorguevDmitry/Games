@@ -158,7 +158,7 @@ public class GameBattleShip extends JFrame {
         public void paint(Graphics g) {
             super.paint(g);
             int cellSize = (int) getSize().getWidth() / FIELD_SIZE;
-            g.setColor(Color.LIGHT_GRAY);
+            g.setColor(Color.BLUE);
             for (int i = 1; i < FIELD_SIZE; i++) {
                 g.drawLine(0, i * cellSize, FIELD_SIZE * cellSize, i * cellSize);
                 g.drawLine(i * cellSize, 0, i * cellSize, FIELD_SIZE * cellSize);
